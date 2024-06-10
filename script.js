@@ -3,7 +3,7 @@ const minutes = document.querySelector(".minutes .number");
 const hours = document.querySelector(".hours .number");
 const days = document.querySelector(".days .number");
 
-const targetDate = new Date("2024-05-20T15:00:00");
+const targetDate = new Date("2024-06-13T15:00:00");
 
 const timeFunction = setInterval(() => {
   const currentDate = new Date();
